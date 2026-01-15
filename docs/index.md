@@ -6,12 +6,12 @@ tags:
 ---
 <center>
 <font size="8">Project Name<br>
-<font size="5">Team ###<br>
-**Submission: month, DD, YYYY**<br>
-Spring - 202x<br>
+<font size="5">Team 303<br>
+**Submission: January, 18, 2026**<br>
+Spring - 2026<br>
 <font size="4">Arizona State University<br>
 **EGR 314**<br>
-Professor Name<br>
+Kevin Nichols<br>
   
 
 </center>
@@ -26,7 +26,7 @@ Professor Name<br>
 
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
-| Name #1                | [JohnDoe.GitHub](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
+| Armando Botiller       | [JohnDoe.GitHub](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
 | Name #2                | link |
 | Name #3                | link |
 | Name #4                | link |

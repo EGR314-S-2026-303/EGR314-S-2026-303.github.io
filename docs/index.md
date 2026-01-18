@@ -28,5 +28,7 @@ Kevin Nichols<br>
 | ---------------------- | -----------------------|
 | Armando Botiller       | [JohnDoe.GitHub](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
 | Lia Ryan               | link |
-| Name #3                | link |
-| Name #4                | link |
+| Matthew Sanderson      | [Matthew Sanderson Github](https://msande84.github.io/msande84.EGR314.github.io/) |
+| Khalid Hamdan          | [Khalid Hamdan Github](https://khamdan24.github.io/khamdan2.github.io/) |
+| Name #5                | link |
+| Name #6                | link | 

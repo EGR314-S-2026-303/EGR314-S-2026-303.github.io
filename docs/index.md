@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Home
 tags:
 - tag1
 - tag2
@@ -27,6 +27,6 @@ Kevin Nichols<br>
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
 | Armando Botiller       | [JohnDoe.GitHub](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
-| Name #2                | link |
+| Lia Ryan               | link |
 | Name #3                | link |
 | Name #4                | link |

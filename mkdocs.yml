@@ -1,6 +1,6 @@
-site_name: EGR314 Report Template
-site_url: https://embedded-systems-design.github.io/template_report
-repo_url: https://github.com/embedded-systems-design/template_report
+site_name: EGR314 - Project Name
+site_url: https://https://egr314-s-2026-303.github.io/
+repo_url: https://github.com/EGR314-S-2026-303/EGR314-S-2026-303.github.io
 edit_uri: edit/main/docs/
 theme:
   name: material
@@ -59,7 +59,7 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2026 team-name-here"
+copyright: "Copyright &copy; 2026 Team 303"
 
 extra:
   generator: false

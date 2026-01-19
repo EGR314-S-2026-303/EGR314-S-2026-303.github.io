@@ -5,7 +5,7 @@ tags:
 - tag2
 ---
 <center>
-<font size="8">Project Name<br>
+<font size="8">Exploration Drone Project<br>
 <font size="5">Team 303<br>
 **Submission: January, 18, 2026**<br>
 Spring - 2026<br>

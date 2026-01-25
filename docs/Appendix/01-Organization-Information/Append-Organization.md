@@ -6,7 +6,7 @@ title: Appendix - Extra Team Organization Information
 
 
 
-_Table #: Project Roles and Duties_
+_Table 1: Project Roles and Duties_
 
 | **Role**          | **Duties**                                                                                                                                |
 | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,7 +30,7 @@ _Table #: Project Roles and Duties_
 
 
 
-*Table #: Team Members' Prefered Communication Modes*
+*Table 2: Team Members' Prefered Communication Modes*
 
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
 | :------- | :----------------------------- | :------------------------------ | :----------------------------- |

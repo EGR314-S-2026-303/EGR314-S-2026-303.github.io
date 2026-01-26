@@ -8,6 +8,13 @@ The goal of our exploration device is to bring innovative and unique solutions t
 
 Our audience are first responders, scientists, researchers, the military, and the people responsible for purchasing exploration robots in all of those fields. Focusing on these professions allows us to choose from a wide variety of robots that meets our class requirements.<br>
 
+## Initial Concept Generation
+
+At the beginning, we came up with a bunch of different concepts without taking into mind all of the requirements for this assignment. Once we finished this board (Figure 0). We moved onto idea generation after completing this board.
+
+![Inital Brainstorming](Ideas.png)
+**Figure 0** Whiteboard of concepts related exploratory devices
+
 ## Idea Generation
 
 To generate ideas and features, we came up with 4 broad categories that we could fill up (Figure 1). These include Sensors; Movement/Power; Asthetics, User Attention & Human Control; and Communication. We felt like these categories did a good job of encompassing the features of an exploration device. <br>
@@ -61,9 +68,6 @@ In the charts below, the Rectangle boxes represent subsystems for each concept a
 
 Here are vector sketches for each concept we created (Figures 12-14).
 
-<<<<<<< HEAD
-**Figure 12** Search and Rescue Drone vector sketch
-=======
 ![Inital Brainstorming](ResQGroundDrone.svg)<br>
 **Figure 12** Ground Search & Rescue Drone vector sketch
 
@@ -72,7 +76,6 @@ The ground rescue drone will serve as a tool to aid seach and rescue crews when 
 >The drone will communicate to its control tablet via a WiFi network, while internal microcontrollers will communicate locally via I2C and UART. The control mechanism features an oled screen for vibrant colors and push button controls to easily control the drone.<br>
 
 The drone comes in a four wheel version and a two wheel version in case a more compact casing is needed for the task at hand.
->>>>>>> 980dfbe0aa518dda152eb51120802dd9966c844b
 
 
 ![Inital Brainstorming](Untitled-3.svg)<br>

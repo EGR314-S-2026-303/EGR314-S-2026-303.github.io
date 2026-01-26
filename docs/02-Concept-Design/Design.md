@@ -62,12 +62,12 @@ In the charts below, the Rectangle boxes represent subsystems for each concept a
 Here are vector sketches for each concept we created (Figures 12-14).
 
 **Figure 12** Search and Rescue Drone vector sketch
-![Inital Brainstorming](Untitled-3.svg)
+![Inital Brainstorming](Untitled-3.svg)<br>
 **Figure 13** Underwater Exploration Drone vector sketch
 
 The Underwater Exploration Drone is a small drone made to explore and inspect underwater areas. It has a front camera and a bright flashlight so we can see clearly in dark water, along with depth and pressure sensors that help track how deep it is and keep it operating safely. Inside the drone, a built in network system connects the sensors and motors using simple communication links. The drone moves using a motor and propeller, with steering fins to help it turn smoothly, and its strong waterproof body makes it useful for research and inspections.
 
-![Inital Brainstorming](Concept3.svg)
+![Inital Brainstorming](Concept3.svg)<br>
 **Figure 14** Quadcopter Exploration Drone vector sketch
 
 The Quadcopter drone will be designed to locate people who are lost in the wilderness. It will accomplish this by utilizing a thermal camera for tracking. It will also have an onboard gyroscope and voltage sensor to stabilize the system and regulate power. Controlling the quadcopter will be accomplished through a WIFI connection and GPS to help navigate. The drone will have an onboard screen and buttons to debug and display information. The drone will be easy to use due to having a live video feed from the camera.

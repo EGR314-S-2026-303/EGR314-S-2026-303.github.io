@@ -61,7 +61,16 @@ In the charts below, the Rectangle boxes represent subsystems for each concept a
 
 Here are vector sketches for each concept we created (Figures 12-14).
 
-**Figure 12** Search and Rescue Drone vector sketch
+![Inital Brainstorming](ResQGroundDrone.svg)<br>
+**Figure 12** Ground Search & Rescue Drone vector sketch
+
+The ground rescue drone will serve as a tool to aid seach and rescue crews when attempting to locate missing persons in emergency situations. The drone features a microphone sensor, a first person camera with stabilization, a manipularor and flipper arm to traverse obstacles, manipulate small objects, and flip over the drone when needed, and a rope attachement for ease of recovery of the unit in case of traversal of small crawl spaces.<br>
+
+>The drone will communicate to its control tablet via a WiFi network, while internal microcontrollers will communicate locally via I2C and UART. The control mechanism features an oled screen for vibrant colors and push button controls to easily control the drone.<br>
+
+The drone comes in a four wheel version and a two wheel version in case a more compact casing is needed for the task at hand.
+
+
 ![Inital Brainstorming](Untitled-3.svg)<br>
 **Figure 13** Underwater Exploration Drone vector sketch
 
@@ -71,4 +80,9 @@ The Underwater Exploration Drone is a small drone made to explore and inspect un
 **Figure 14** Quadcopter Exploration Drone vector sketch
 
 The Quadcopter drone will be designed to locate people who are lost in the wilderness. It will accomplish this by utilizing a thermal camera for tracking. It will also have an onboard gyroscope and voltage sensor to stabilize the system and regulate power. Controlling the quadcopter will be accomplished through a WIFI connection and GPS to help navigate. The drone will have an onboard screen and buttons to debug and display information. The drone will be easy to use due to having a live video feed from the camera.
-## Chosen Concept
+## Chosen Concept <br>
+**Ground Search & Rescue Drone**
+
+After researching the available offerings, we felt that the ground drone was the option with a greater opportunity for innovation. We looked at aerial search and rescue drones, and while this concept offered a challenge since it would be a flying drone, we saw that the market was already saturated with many payload capable rescue and law enforcement drones. In the other hand, the underwater drone would have been a challenge as well, the team ultimately chose the ground drone since we felt we could bring more fresh ideas into a market with limited offerings.
+
+![Inital Brainstorming](ResQGroundDrone.svg)<br>

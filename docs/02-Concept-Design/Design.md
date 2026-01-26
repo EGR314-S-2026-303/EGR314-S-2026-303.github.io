@@ -52,9 +52,9 @@ After looking through our highest priority features, we decided on a Search and 
 
 In the charts below, the Rectangle boxes represent subsystems for each concept and the Oval boxes represent the features used in each subsytem. 
 
-![SRDrone](ChartFig9.png){style width:"350" height:"300;"}
+![SRDrone](ChartFig9.png){style width:"100" height:"300;"}
 **Figure 9** Search and Rescue Drone Chart
-![SRDrone](ChartFig10.png){style width:"350" height:"300;"}
+![SRDrone](ChartFig10.png){style width:100 height:300;}
 **Figure 10** Underwater Exploration Drone Chart
 ![SRDrone](ChartFig11.png){style width:"350" height:"300;"}
 **Figure 11** Quadcopter Drone Chart
@@ -67,6 +67,7 @@ Here are vector sketches for each concept we created (Figures 12-14).
 **Figure 12** Search and Rescue Drone vector sketch
 
 **Figure 13** Underwater Exploration Drone vector sketch
+![QDronesketch](Concept3.svg){style width:"350" height:"300;"}
 **Figure 14** Quadcopter Exploration Drone vector sketch
 
 ## Chosen Concept

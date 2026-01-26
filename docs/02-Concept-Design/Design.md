@@ -58,8 +58,8 @@ From our features, we generated 3 concepts to choose from for us to develop (Fig
 After looking through our highest priority features, we decided on a Search and Rescue Drone; an Underwater Exploration Drone; and a Quadcopter Drone for our concepts. We kept the Human Machine Interface and Wireless the same for each concept as we believe those are the best communication protocols for building our prototype.
 
 In the charts below, the Rectangle boxes represent subsystems for each concept and the Oval boxes represent the features used in each subsytem. 
-<img src="ChartFig9.png" alt="Alt text" width="500">
 
+![Alt](ChartFig9.png =300x200)
 **Figure 9** Search and Rescue Drone Chart
 <img src="ChartFig10.png" alt="Alt text" width="500">
 
@@ -77,6 +77,9 @@ Here are vector sketches for each concept we created (Figures 12-14).
 <img src="Untitled-3.svg" alt="Alt text" width="400">
 
 **Figure 13** Underwater Exploration Drone vector sketch
+
+The Underwater Exploration Drone is a small drone made to explore and inspect underwater areas. It has a front camera and a bright flashlight so we can see clearly in dark water, along with depth and pressure sensors that help track how deep it is and keep it operating safely. Inside the drone, a built in network system connects the sensors and motors using simple communication links. The drone moves using a motor and propeller, with steering fins to help it turn smoothly, and its strong waterproof body makes it useful for research and inspections.
+
 <img src="Concept3.svg" alt="Alt text" width="400">
 
 **Figure 14** Quadcopter Exploration Drone vector sketch

@@ -29,19 +29,26 @@ Once the general brainstorming of features and ideas was complete. We figured th
 
 After moving our features into the new categories, we then ranked each feature in terms of high, medium, and low importance. Doing this excersice showed us that most of our new categories made sense for the general device concept we are generating. However, the Power Sources category was not as useful due to the lack of variety in easily accesible mobile power sources. So we will most likely use a battery in the finished product.
 
-![User Interface](ImportFig2.png){style width:350 height:300;}
+<img src="ImportFig2.png" alt="Alt text" width="500">
+
 **Figure 2** User Interface & Control 
-![User Interface](ImportFig3.png){style width:"350" height:"300;"}
+<img src="ImportFig3.png" alt="Alt text" width="500">
+
 **Figure 3** Communication Technologies
-![User Interface](ImportFig4.png){style width:"350" height:"300;"}
+<img src="ImportFig4.png" alt="Alt text" width="500">
+
 **Figure 4** Detection & Measurement
-![User Interface](ImportFig5.png){style width:"350" height:"300;"}
+<img src="ImportFig5.png" alt="Alt text" width="500">
+
 **Figure 5** Navigation & Hazard Avoidance
-![User Interface](ImportFig6.png){style width:"350" height:"300;"}
+<img src="ImportFig6.png" alt="Alt text" width="500">
+
 **Figure 6** Movement Mechanisms
-![User Interface](ImportFig7.png){style width:"350" height:"300;"}
+<img src="ImportFig7.png" alt="Alt text" width="500">
+
 **Figure 7** Power Sources
-![User Interface](ImportFig8.png){style width:"350" height:"300;"}
+<img src="ImportFig8.png" alt="Alt text" width="500">
+
 **Figure 8** Audio & Visual Features
 
 ## Concept Generation
@@ -51,12 +58,14 @@ From our features, we generated 3 concepts to choose from for us to develop (Fig
 After looking through our highest priority features, we decided on a Search and Rescue Drone; an Underwater Exploration Drone; and a Quadcopter Drone for our concepts. We kept the Human Machine Interface and Wireless the same for each concept as we believe those are the best communication protocols for building our prototype.
 
 In the charts below, the Rectangle boxes represent subsystems for each concept and the Oval boxes represent the features used in each subsytem. 
+<img src="ChartFig9.png" alt="Alt text" width="500">
 
-![SRDrone](ChartFig9.png){style width:"100" height:"300;"}
 **Figure 9** Search and Rescue Drone Chart
-![SRDrone](ChartFig10.png){style width:100 height:300;}
+<img src="ChartFig10.png" alt="Alt text" width="500">
+
 **Figure 10** Underwater Exploration Drone Chart
-![SRDrone](ChartFig11.png){style width:"350" height:"300;"}
+<img src="ChartFig11.png" alt="Alt text" width="500">
+
 **Figure 11** Quadcopter Drone Chart
 
 
@@ -65,9 +74,12 @@ In the charts below, the Rectangle boxes represent subsystems for each concept a
 Here are vector sketches for each concept we created (Figures 12-14).
 
 **Figure 12** Search and Rescue Drone vector sketch
+<img src="Untitled-3.svg" alt="Alt text" width="400">
 
 **Figure 13** Underwater Exploration Drone vector sketch
-![QDronesketch](Concept3.svg){style width:"350" height:"300;"}
+<img src="Concept3.svg" alt="Alt text" width="400">
+
 **Figure 14** Quadcopter Exploration Drone vector sketch
 
+The Quadcopter drone will be designed to locate people who are lost in the wilderness. It will accomplish this by utilizing a thermal camera for tracking. It will also have an onboard gyroscope and voltage sensor to stabilize the system and regulate power. Controlling the quadcopter will be accomplished through a WIFI connection and GPS to help navigate. The drone will have an onboard screen and buttons to debug and display information. The drone will be easy to use due to having a live video feed from the camera.
 ## Chosen Concept

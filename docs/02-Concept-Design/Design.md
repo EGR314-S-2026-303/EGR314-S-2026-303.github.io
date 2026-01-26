@@ -46,7 +46,7 @@ After moving our features into the new categories, we then ranked each feature i
 
 ## Concept Generation
 
-From our features, we generated 3 concepts to choose from for us to develop (). While generating our concepts, we realized we missed some features that we should have come up with earlier. Some of the features we added during concept generation are Microphone, Camera, Flipper mechanism, and OLED Screen.
+From our features, we generated 3 concepts to choose from for us to develop (Figures 9-11). While generating our concepts, we realized we missed some features that we should have come up with earlier. Some of the features we added during concept generation are Microphone, Camera, Flipper mechanism, and OLED Screen.
 
 After looking through our highest priority features, we decided on a Search and Rescue Drone; an Underwater Exploration Drone; and a Quadcopter Drone for our concepts. We kept the Human Machine Interface and Wireless the same for each concept as we believe those are the best communication protocols for building our prototype.
 
@@ -62,6 +62,10 @@ In the charts below, the Rectangle boxes represent subsystems for each concept a
 
 ## Concept Sketches
 
+Here are vector sketches for each concept we created (Figures 12-14).
 
+**Figure 12** Search and Rescue Drone vector sketch
+**Figure 13** Underwater Exploration Drone vector sketch
+**Figure 14** Quadcopter Exploration Drone vector sketch
 
 ## Chosen Concept

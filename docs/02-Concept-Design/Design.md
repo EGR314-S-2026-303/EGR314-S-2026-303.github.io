@@ -1,10 +1,6 @@
 ---
 title: Concept Generation and Design Ideation
 ---
-# AlWAYS WATCHING...
-![Page Defender](demonclippy.png)
-
-## Concept Design
 
 ## Goal and Audience
 

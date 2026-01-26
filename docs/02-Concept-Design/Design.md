@@ -32,23 +32,17 @@ After moving our features into the new categories, we then ranked each feature i
 
 ![Inital Brainstorming](ImportFig2.png)
 **Figure 2** User Interface & Control 
-<img src="ImportFig3.png" alt="Alt text" width="500">
-
+![Inital Brainstorming](ImportFig3.png)
 **Figure 3** Communication Technologies
-<img src="ImportFig4.png" alt="Alt text" width="500">
-
+![Inital Brainstorming](ImportFig4.png)
 **Figure 4** Detection & Measurement
-<img src="ImportFig5.png" alt="Alt text" width="500">
-
+![Inital Brainstorming](ImportFig5.png)
 **Figure 5** Navigation & Hazard Avoidance
-<img src="ImportFig6.png" alt="Alt text" width="500">
-
+![Inital Brainstorming](ImportFig6.png)
 **Figure 6** Movement Mechanisms
-<img src="ImportFig7.png" alt="Alt text" width="500">
-
+![Inital Brainstorming](ImportFig7.png)
 **Figure 7** Power Sources
-<img src="ImportFig8.png" alt="Alt text" width="500">
-
+![Inital Brainstorming](ImportFig8.png)
 **Figure 8** Audio & Visual Features
 
 ## Concept Generation
@@ -59,13 +53,11 @@ After looking through our highest priority features, we decided on a Search and 
 
 In the charts below, the Rectangle boxes represent subsystems for each concept and the Oval boxes represent the features used in each subsytem. 
 
-![Alt](ChartFig9.png =300x200)
+![Inital Brainstorming](ChartFig9.png)
 **Figure 9** Search and Rescue Drone Chart
-<img src="ChartFig10.png" alt="Alt text" width="500">
-
+![Inital Brainstorming](ChartFig10.png)
 **Figure 10** Underwater Exploration Drone Chart
-<img src="ChartFig11.png" alt="Alt text" width="500">
-
+![Inital Brainstorming](ChartFig11.png)
 **Figure 11** Quadcopter Drone Chart
 
 
@@ -74,14 +66,12 @@ In the charts below, the Rectangle boxes represent subsystems for each concept a
 Here are vector sketches for each concept we created (Figures 12-14).
 
 **Figure 12** Search and Rescue Drone vector sketch
-<img src="Untitled-3.svg" alt="Alt text" width="400">
-
+![Inital Brainstorming](Untitled-3.svg)
 **Figure 13** Underwater Exploration Drone vector sketch
 
 The Underwater Exploration Drone is a small drone made to explore and inspect underwater areas. It has a front camera and a bright flashlight so we can see clearly in dark water, along with depth and pressure sensors that help track how deep it is and keep it operating safely. Inside the drone, a built in network system connects the sensors and motors using simple communication links. The drone moves using a motor and propeller, with steering fins to help it turn smoothly, and its strong waterproof body makes it useful for research and inspections.
 
-<img src="Concept3.svg" alt="Alt text" width="400">
-
+![Inital Brainstorming](Concept3.svg)
 **Figure 14** Quadcopter Exploration Drone vector sketch
 
 The Quadcopter drone will be designed to locate people who are lost in the wilderness. It will accomplish this by utilizing a thermal camera for tracking. It will also have an onboard gyroscope and voltage sensor to stabilize the system and regulate power. Controlling the quadcopter will be accomplished through a WIFI connection and GPS to help navigate. The drone will have an onboard screen and buttons to debug and display information. The drone will be easy to use due to having a live video feed from the camera.

@@ -29,7 +29,7 @@ Once the general brainstorming of features and ideas was complete. We figured th
 
 After moving our features into the new categories, we then ranked each feature in terms of high, medium, and low importance. Doing this excersice showed us that most of our new categories made sense for the general device concept we are generating. However, the Power Sources category was not as useful due to the lack of variety in easily accesible mobile power sources. So we will most likely use a battery in the finished product.
 
-![User Interface](ImportFig2.png){style width:"350" height:"300;"}
+![User Interface](ImportFig2.png){style width:350 height:300;}
 **Figure 2** User Interface & Control 
 ![User Interface](ImportFig3.png){style width:"350" height:"300;"}
 **Figure 3** Communication Technologies
@@ -65,6 +65,7 @@ In the charts below, the Rectangle boxes represent subsystems for each concept a
 Here are vector sketches for each concept we created (Figures 12-14).
 
 **Figure 12** Search and Rescue Drone vector sketch
+
 **Figure 13** Underwater Exploration Drone vector sketch
 **Figure 14** Quadcopter Exploration Drone vector sketch
 

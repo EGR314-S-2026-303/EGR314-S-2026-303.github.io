@@ -62,6 +62,8 @@ In the charts below, the Rectangle boxes represent subsystems for each concept a
 Here are vector sketches for each concept we created (Figures 12-14).
 
 **Figure 12** Search and Rescue Drone vector sketch
+
+
 ![Inital Brainstorming](Untitled-3.svg)<br>
 **Figure 13** Underwater Exploration Drone vector sketch
 

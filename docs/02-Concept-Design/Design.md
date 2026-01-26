@@ -58,9 +58,8 @@ From our features, we generated 3 concepts to choose from for us to develop (Fig
 After looking through our highest priority features, we decided on a Search and Rescue Drone; an Underwater Exploration Drone; and a Quadcopter Drone for our concepts. We kept the Human Machine Interface and Wireless the same for each concept as we believe those are the best communication protocols for building our prototype.
 
 In the charts below, the Rectangle boxes represent subsystems for each concept and the Oval boxes represent the features used in each subsytem. 
-<img src="ChartFig9.png" alt="Alt text" width="500">
 
-![Alt](ChartFig9.png)
+![Alt](ChartFig9.png =300x200)
 **Figure 9** Search and Rescue Drone Chart
 <img src="ChartFig10.png" alt="Alt text" width="500">
 

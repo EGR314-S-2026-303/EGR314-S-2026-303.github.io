@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#header" class="md-skip">
+        <a href="#intro" class="md-skip">
           Skip to content
         </a>
       
@@ -574,9 +574,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#header" class="md-nav__link">
+  <a href="#intro" class="md-nav__link">
     <span class="md-ellipsis">
-      Header
+      Intro
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subsystem-and-requirement-designation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subsystem and Requirement Designation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reasons-for-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reasons for Requirements
     </span>
   </a>
   
@@ -721,9 +748,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#header" class="md-nav__link">
+  <a href="#intro" class="md-nav__link">
     <span class="md-ellipsis">
-      Header
+      Intro
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subsystem-and-requirement-designation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subsystem and Requirement Designation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reasons-for-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reasons for Requirements
     </span>
   </a>
   
@@ -754,8 +808,209 @@
 
   <h1>Project Requirements</h1>
 
-<h2 id="header">Header</h2>
-<p>Add contents for testing</p>
+<h2 id="intro">Intro</h2>
+<p>Add contents for testing!</p>
+<h2 id="requirements">Requirements</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Requirement Description</th>
+<th>Measure of Threshold (MoT)</th>
+<th>Target Measure</th>
+<th style="text-align: center;">Stretch Requirement (Y/N)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>Drone must move over rough/rocky ground</td>
+<td>Can consistently drive 5 mph over dirt and gravel.</td>
+<td>Can drive 10 mph over dirt and large (5x5x5 in. average) smooth rocks.</td>
+<td style="text-align: center;">Y</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>Surface mounted, 3.3V switching power regulator</td>
+<td>3.2V</td>
+<td>3.3V</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>Wireless Communication</td>
+<td>Bidirectional communication between vehicle and control</td>
+<td>Bidirectional communication between vehicle and control or status feed without wires</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>Remotely controlled with WIFI</td>
+<td>Controls within 10 meters</td>
+<td>Control reach 30 meters or more</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>Stable while moving</td>
+<td>MoT of #1 without flipping over</td>
+<td>MoT of #2 without flipping over</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>Stable video while moving</td>
+<td>Must be able to hold the camera steady while driving at 5 MPH</td>
+<td>Must be able to hold the camera steady while driving at 10 MPH</td>
+<td style="text-align: center;">Y</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>Display live video</td>
+<td>Sends out 30 FPS per second</td>
+<td>Live video with less than 3 seconds of delay</td>
+<td style="text-align: center;">Y</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td>Microphone</td>
+<td>Playback audio from microphone on control device</td>
+<td>Able to hear a conversation a meter away from drone</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td>Human Design Interface; Respond manually with buttons</td>
+<td>Small OLED screen with pushbuttons that permits a user to view all sensor data in text; directly control the actuator; modify setpoints on all the system boards; toggle GPIO debug pins on ALL subsystems.</td>
+<td>All the content in MoT and ability to tune sensors and actuators with controls on exterior of device.</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td>Use thermal sensors to people with drone</td>
+<td>Drone is able to see human heat signatures</td>
+<td>Able to see a human body or track residual human body heat 5 meters away</td>
+<td style="text-align: center;">Y</td>
+</tr>
+<tr>
+<td style="text-align: right;">11</td>
+<td>Mechanism that can flip bot over if upside-down</td>
+<td>Arm can flip over device, manipulate small rocks (3x3x3 in. max, 1 lb)</td>
+<td>Arm can flip over device, manipulate small rocks (3x3x3 in. max, 10 lb)</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td>Bot must have decent wireless range</td>
+<td>Receives and sends signals from 30 meters away.</td>
+<td>Receives and sends signals from 5 km away.</td>
+<td style="text-align: center;">Y</td>
+</tr>
+<tr>
+<td style="text-align: right;">13</td>
+<td>Fast charging</td>
+<td>2 hours charge</td>
+<td>1.5 hours charge</td>
+<td style="text-align: center;">Y</td>
+</tr>
+<tr>
+<td style="text-align: right;">14</td>
+<td>Detect objects with distance sensors</td>
+<td>Detects objects within 1 meter of the drone</td>
+<td>Detects objects within 3 meters of the drone</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td style="text-align: right;">15</td>
+<td>I2C or SPI</td>
+<td>Control peripheral devices such as sensors, microphones, and camera</td>
+<td>Same as MoT</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td style="text-align: right;">16</td>
+<td>Daisy chain UART</td>
+<td>Daisy chain UART connection between all subsystems</td>
+<td>Separate UART loops for high speed communication through certain subsystems</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td style="text-align: right;">17</td>
+<td>Distance controlled wheel speed</td>
+<td>The robot can control wheel speed and can display its speed within +-10 cm/s error, and can drive backwards.</td>
+<td>MoT and robot uses sensors to determine speed, maneuver around obstacles by turning, and knows speed within +- 1 cm/s error.</td>
+<td style="text-align: center;">Y</td>
+</tr>
+<tr>
+<td style="text-align: right;">18</td>
+<td>Device must be able to communicate to survivors using a speaker</td>
+<td>Is able to playback audio sent from an HMI device and listen to its environment.</td>
+<td>Is able to playback audio sent from an HMI device and listen to its environment in a hearable range of 90 db, 2 - 5 kHz.</td>
+<td style="text-align: center;">Y</td>
+</tr>
+<tr>
+<td style="text-align: right;">19</td>
+<td>Senses ground vibrations</td>
+<td>Can sense ground vibrations (Yes or no)</td>
+<td>Can sense ground vibrations that align with footsteps (20-150 Hz)</td>
+<td style="text-align: center;">Y</td>
+</tr>
+</tbody>
+</table>
+<h2 id="subsystem-and-requirement-designation">Subsystem and Requirement Designation</h2>
+<table>
+<thead>
+<tr>
+<th>Person</th>
+<th>Designated Subsystem</th>
+<th>Requirements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Khalid</td>
+<td>Locomotion control</td>
+<td>1, 2, 5, 9, 15, 16, 17</td>
+</tr>
+<tr>
+<td>Matthew</td>
+<td>Wireless</td>
+<td>2, 3, 4, 7, 9, 12, 15, 16</td>
+</tr>
+<tr>
+<td>Armando</td>
+<td>Arm system</td>
+<td>2, 5, 9, 11, 15, 16</td>
+</tr>
+<tr>
+<td>Manny</td>
+<td>Camera/distance sensors</td>
+<td>2, 5, 6, 7, 9, 10, 14, 15, 16, 17</td>
+</tr>
+<tr>
+<td>Vedaa</td>
+<td>Microphone/speaker</td>
+<td>2, 8, 9, 15, 16, 18, 19</td>
+</tr>
+<tr>
+<td>Lia</td>
+<td>HMI</td>
+<td>2, 3, 7, 9, 16, 18</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reasons-for-requirements">Reasons for Requirements</h2>
+<p>Our device will be a search and rescue bot that will need to be capable of operating in natural disaster zones and urban rescue situations. As a stretch goal, we also intend the device to be capable as a land rover in low atmosphere planets, such as Mars. As a search and rescue robot, it needs to be able to locate survivors by sight, sound, and ground vibrations. </p>
+<p>The robot must traverse decently rough and granulated terrain in order to be a viable rescue bot, thus 1 and 5 require the device to drive and be stable on this type of terrain.</p>
+<p>Requirements 2, 3, 4, 9, 15 and 16 are based on the project requirements for this course, due to a certain voltage regulator requirement and communication requirements.</p>
+<p>For more remote control capability and robot vision, the robot should have a camera that has to stabilize its feed in order to be useful in its intended environment, thus we came up with requirements 6 and 7.</p>
+<p>Since our device will be in rocky environments, it might find itself upside down; requirement 11 solves this issue by allowing the device to right itself autonomously.</p>
+<p>Requirements 13, an important part for search and rescue operations,  we want it to quickly recharge the battery in between missions so the drone can resume its activities. Faster charging minimizes time and increases the span of time available to locate and find survivors.</p>
+<p>Requirement 10 and 14 allows the robot to find survivors who are lost. </p>
+<p>Requirements 11 and 12 allow the robot to function over a large enough search area to effectively help rescue a survivor.</p>
+<p>Requirements 8 and 18 allow the robot to communicate with survivors using a microphone and a speaker. The microphone helps detect calls for help and sends it to the operator. The speaker lets rescuers give instructions and guide them to safety. These features make communication possible during search and rescue missions.</p>
+<p>For the robot to reliably navigate its environment and avoid obstacles, the device must be able to control its speed accurately and turn. Thus requirement 17 addresses this.</p>
+<p>Requirement 19 allows the robot to detect lower frequency vibrations to detect any movement underneath rubble as well as explosives. </p>
 
 
 

@@ -4,7 +4,7 @@ title: Project Requirements
 
 ## Intro
 
-Add contents for testing!
+These project requirements are the expectations we will follow while designing and building our device. To create these requirements, we looked at the features from the selected design concept and class requirements; extracted them into tangible goals we can meet with our product. Requirements are split between the Measure of Threshold(MoT), being the minimum level required to not be deemed a failure, and Target Measure, being the goal we want our requirements to reach. Notably, there are many stretch requirements. These requirements are not something we need to include in our device to achieve our base goal. Including these stretch requirements will give our device an edge in the marketplace, if we are able to reach them.
 
 ## Requirements
 

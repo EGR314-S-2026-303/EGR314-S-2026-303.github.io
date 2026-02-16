@@ -11,6 +11,10 @@ title: Block Diagram, Protocol, and Message Structure
 ```mermaid
 
 sequenceDiagram
+
+%%{init: {'themeVariables': { 'fontSize': '48px' }}}%%
+
+
     actor WebUser
     participant MS as Matthew
     participant A as Armando

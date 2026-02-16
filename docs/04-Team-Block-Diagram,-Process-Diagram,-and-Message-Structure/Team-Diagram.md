@@ -9,17 +9,12 @@ title: Block Diagram, Protocol, and Message Structure
 ## Process Diagram
 
 ```mermaid
-
+%%{init: {'themeVariables': { 'fontSize': '30px'}}}%%
 sequenceDiagram
-
-%%{init: {'themeVariables': { 'fontSize': '100px' ,'nodeFontSize': '100px' , 'edgeLabelFontSize': '100px'}}}%%
-
-
     actor WebUser
     participant MS as Matthew
     participant A as Armando
     participant K as Khalid
-
     participant V as Vedaa
     participant MC as Manny
     participant L as Lia
@@ -59,12 +54,21 @@ autonumber
       MS-->>WebUser: Display Microphone output wave
     A->>K: Armando to Khalid<br>Okay to start driving
     K->>K: Turn on driving LED<br>, trash msg.
-
+    WebUser->>MS: play sound number [number]
+    MS->>A: play sound number [number]
+    A->>K: play sound number [number]
+    K->>V: play sound number [number]
+    InPersonUser->>L: play sound number [number]
+    L->>MC: play sound number [number]
+    MC->>V: play sound number [number]
+    V->>V: play sound number [number],<br>Trash msg
     MC->>L: Manny to Matthew<br>Send Stream Status[Stream Telemetry]
     L-->>InPersonUser: Send Stream Status [Stream Telemetry]
     L->>MS: Manny to Matthew<br>Send Stream Status [Stream Telemetry]
-MS-->>WebUser: Send Image [Video Stream]
+    MS->>WebUser: Send Stream Status [Stream Telemetry]
+    MC->>WebUser: Send MJPEG [Image Stream]
     end
+
 ```
 
 ## Message Structure

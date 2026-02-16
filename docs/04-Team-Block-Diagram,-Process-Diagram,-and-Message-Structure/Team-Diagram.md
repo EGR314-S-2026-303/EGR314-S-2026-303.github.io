@@ -94,6 +94,7 @@ All message type structure is described by the following:
 Byte 0 and 1 signify the start of the message and and 62 and 63 signify the end. Each board will receive messages on the UART chain but will only process it if byte 2: "source ID" matches theirs. If a board receives the a message that was intended for it, it will read the first bit of the message, byte 4, to determine which type of message it is, and use that info to carry out the command described in the following table using the remaining bytes of the message (bytes 5-61).
 
 _Table 1: All message types and descriptions_
+
 | Message type byte 1 (uint8_t) | Description |
 | --- | --- |
 | 1 | Arm position X, Y, and Z |

@@ -833,16 +833,16 @@ sequenceDiagram
     participant L as Lia
     actor InPersonUser
 autonumber
-    InPersonUser--&gt;&gt;L: move arm to position (X, Y, Z)
-    L-&gt;&gt;MS: Lia to Armando&lt;br&gt;move arm to position (X,Y,Z)
-    WebUser--&gt;&gt;MS: move arm to position (X, Y, Z)
-    MS-&gt;&gt;A: Matthew to Armando&lt;br&gt;move arm to position (X, Y, Z)
+    InPersonUser--&gt;&gt;L: move arm to position&lt;br&gt;(X, Y, Z)
+    L-&gt;&gt;MS: Lia to Armando&lt;br&gt;move arm to position&lt;br&gt;(X, Y, Z)
+    WebUser--&gt;&gt;MS: move arm to position&lt;br&gt;(X, Y, Z)
+    MS-&gt;&gt;A: Matthew to Armando&lt;br&gt;move arm to position&lt;br&gt;(X, Y, Z)
     A-&gt;&gt;A: move arm,&lt;br&gt; trash msg
-    InPersonUser--&gt;&gt;L: Set speed and type of movement to [speed]
-    L-&gt;&gt;MS: Lia to Khalid&lt;br&gt;Set speed  movement to [speed]
-    WebUser--&gt;&gt;MS: Set speed movement to [speed]
-    MS-&gt;&gt;A: Matthew to Khalid&lt;br&gt;Set speed &amp; movement to [speed]
-    A-&gt;&gt;K: Matthew to Khalid&lt;br&gt;Set speed &amp; movement to [speed]
+    InPersonUser--&gt;&gt;L: Set speed &amp; Movement&lt;br&gt;[speed]
+    L-&gt;&gt;MS: Lia to Khalid&lt;br&gt;Set speed &amp; Movement&lt;br&gt;[speed]
+    WebUser--&gt;&gt;MS: Set speed &amp; Movement&lt;br&gt;[speed]
+    MS-&gt;&gt;A: Matthew to Khalid&lt;br&gt;Set speed &amp; Movement&lt;br&gt;[speed]
+    A-&gt;&gt;K: Matthew to Khalid&lt;br&gt;Set speed &amp; Movement&lt;br&gt;[speed]
     K-&gt;&gt;K: Set speed to [speed] and type of movement to [movement],&lt;br&gt;Trash msg
     loop each second
      A-&gt;&gt;K: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
@@ -862,25 +862,26 @@ autonumber
     WebUser-&gt;&gt;WebUser: Display speed,&lt;br&gt; trash msg.
       V-&gt;&gt;MC: Vedaa to Everyone&lt;br&gt;Microphone output is [sound]
       MC-&gt;&gt;L: Vedaa to Everyone&lt;br&gt;Microphone output is [sound]
-      L--&gt;&gt;InPersonUser: Display Microphone output wave
+      L--&gt;&gt;InPersonUser: Display Microphone&lt;br&gt;output wave
       L-&gt;&gt;MS: Vedaa to Everyone&lt;br&gt;Microphone output is [sound]
-      MS--&gt;&gt;WebUser: Display Microphone output wave
+      MS--&gt;&gt;WebUser: Display Microphone&lt;br&gt;output wave
     A-&gt;&gt;K: Armando to Khalid&lt;br&gt;Okay to start driving
     K-&gt;&gt;K: Turn on driving LED&lt;br&gt;, trash msg.
-    WebUser-&gt;&gt;MS: play sound number [number]
-    MS-&gt;&gt;A: play sound number [number]
-    A-&gt;&gt;K: play sound number [number]
-    K-&gt;&gt;V: play sound number [number]
-    InPersonUser-&gt;&gt;L: play sound number [number]
-    L-&gt;&gt;MC: play sound number [number]
-    MC-&gt;&gt;V: play sound number [number]
-    V-&gt;&gt;V: play sound number [number],&lt;br&gt;Trash msg
-    MC-&gt;&gt;L: Manny to Matthew&lt;br&gt;Send Stream Status[Stream Telemetry]
-    L--&gt;&gt;InPersonUser: Send Stream Status [Stream Telemetry]
-    L-&gt;&gt;MS: Manny to Matthew&lt;br&gt;Send Stream Status [Stream Telemetry]
+    WebUser-&gt;&gt;MS: play sound number&lt;br&gt;[number]
+    MS-&gt;&gt;A: play sound number&lt;br&gt;[number]
+    A-&gt;&gt;K: play sound number&lt;br&gt;[number]
+    K-&gt;&gt;V: play sound number&lt;br&gt;[number]
+    InPersonUser-&gt;&gt;L: play sound number&lt;br&gt;[number]
+    L-&gt;&gt;MC: play sound number&lt;br&gt;[number]
+    MC-&gt;&gt;V: play sound number&lt;br&gt;[number]
+    V-&gt;&gt;V: play sound number&lt;br&gt;[number],&lt;br&gt;Trash msg
+    MC-&gt;&gt;L: Manny to Matthew&lt;br&gt;Send Stream Status&lt;br&gt;[Stream Telemetry]
+    L--&gt;&gt;InPersonUser: Send Stream Status&lt;br&gt;[Stream Telemetry]
+    L-&gt;&gt;MS: Manny to Matthew&lt;br&gt;Send Stream Status&lt;br&gt;[Stream Telemetry]
     MS-&gt;&gt;WebUser: Send Stream Status&lt;br&gt;[Stream Telemetry]
     MC-&gt;&gt;WebUser: Send MJPEG [Image Stream]
     end
+
 </code></pre>
 <h2 id="message-types">Message Types</h2>
 <h3 id="overview">Overview:</h3>

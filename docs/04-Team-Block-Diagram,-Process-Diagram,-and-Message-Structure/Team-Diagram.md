@@ -47,8 +47,8 @@ autonumber
     L->>MS: Khalid to Everyone<br>My speed is [speed]
     MS-->>WebUser: Display Speed
     WebUser->>WebUser: Display speed,<br> trash msg.
-      V->>MC: Vedaa to Everyone<br>Microphone output is [sound]
-      MC->>L: Vedaa to Everyone<br>Microphone output is [sound]
+      V->>MC: Vedaa to Everyone<br>Microphone output is<br>[sound]
+      MC->>L: Vedaa to Everyone<br>Microphone output is<br>[sound]
       L-->>InPersonUser: Display Microphone<br>output wave
       L->>MS: Vedaa to Everyone<br>Microphone output is [sound]
       MS-->>WebUser: Display Microphone<br>output wave
@@ -68,6 +68,7 @@ autonumber
     MS->>WebUser: Send Stream Status<br>[Stream Telemetry]
     MC->>WebUser: Send MJPEG [Image Stream]
     end
+
 
 
 ```

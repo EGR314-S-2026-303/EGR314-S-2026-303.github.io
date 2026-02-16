@@ -26,10 +26,10 @@ autonumber
     MS->>A: Matthew to Armando<br>move arm to position (X, Y, Z)
     A->>A: move arm,<br> trash msg
     InPersonUser-->>L: Set speed and type of movement to [speed]
-    L->>MS: Lia to Khalid<br>Set speed and type of movement to [speed]
-    WebUser-->>MS: Set speed and type of movement to [speed]
-    MS->>A: Matthew to Khalid<br>Set speed and type of movement to [speed]
-    A->>K: Matthew to Khalid<br>Set speed and type of movement to [speed]
+    L->>MS: Lia to Khalid<br>Set speed  movement to [speed]
+    WebUser-->>MS: Set speed movement to [speed]
+    MS->>A: Matthew to Khalid<br>Set speed & movement to [speed]
+    A->>K: Matthew to Khalid<br>Set speed & movement to [speed]
     K->>K: Set speed to [speed] and type of movement to [movement],<br>Trash msg
     loop each second
      A->>K: Armando to Everyone<br>Arm is at (X, Y, Z)
@@ -65,7 +65,7 @@ autonumber
     MC->>L: Manny to Matthew<br>Send Stream Status[Stream Telemetry]
     L-->>InPersonUser: Send Stream Status [Stream Telemetry]
     L->>MS: Manny to Matthew<br>Send Stream Status [Stream Telemetry]
-    MS->>WebUser: Send Stream Status [Stream Telemetry]
+    MS->>WebUser: Send Stream Status<br>[Stream Telemetry]
     MC->>WebUser: Send MJPEG [Image Stream]
     end
 

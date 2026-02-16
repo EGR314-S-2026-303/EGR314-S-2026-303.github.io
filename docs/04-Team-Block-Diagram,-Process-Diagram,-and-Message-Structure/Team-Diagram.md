@@ -8,6 +8,10 @@ title: Block Diagram, Protocol, and Message Structure
 
 ## Process Diagram
 
+### Overview
+
+The Process Diagram for our Drone Project is shown below. This diagram displays the what data will be sent, through UART protocol, around the subsystems and where it is intended to go.
+
 ```mermaid
 %%{init: {'themeVariables': { 'fontSize': '30px'}}}%%
 sequenceDiagram
@@ -54,13 +58,12 @@ autonumber
       MS-->>WebUser: Display Microphone<br>output wave
     A->>K: Armando to Khalid<br>Okay to start driving
     K->>K: Turn on driving LED<br>, trash msg.
-    WebUser->>MS: play sound number<br>[number]
-    MS->>A: play sound number<br>[number]
-    A->>K: play sound number<br>[number]
-    K->>V: play sound number<br>[number]
-    InPersonUser->>L: play sound number<br>[number]
-    L->>MC: play sound number<br>[number]
-    MC->>V: play sound number<br>[number]
+      InPersonUser-->>L: play sound number<br>[number]
+      L->>MS: Lia to Vedaa<br>play sound number<br>[number]
+    WebUser-->>MS: play sound number<br>[number]
+    MS->>A: Matthew to Vedaa<br>play sound number<br>[number]
+    A->>K: Matthew to Vedaa<br>play sound number<br>[number]
+    K->>V: Matthew to Vedaa<br>play sound number<br>[number]
     V->>V: play sound number<br>[number],<br>Trash msg
     MC->>L: Manny to Matthew<br>Send Stream Status<br>[Stream Telemetry]
     L-->>InPersonUser: Send Stream Status<br>[Stream Telemetry]

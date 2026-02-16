@@ -3,8 +3,7 @@ title: Block Diagram, Protocol, and Message Structure
 ---
 
 ## Block Diagram
-
-
+![block diagram](block_diagram.png)
 
 ## Process Diagram
 

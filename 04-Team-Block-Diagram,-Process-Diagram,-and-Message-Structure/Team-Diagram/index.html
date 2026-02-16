@@ -635,6 +635,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Process Diagram">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -648,7 +663,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#overview_1" class="md-nav__link">
     <span class="md-ellipsis">
       Overview:
     </span>
@@ -769,6 +784,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Process Diagram">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -782,7 +812,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#overview_1" class="md-nav__link">
     <span class="md-ellipsis">
       Overview:
     </span>
@@ -822,6 +852,8 @@
 
 <h2 id="block-diagram">Block Diagram</h2>
 <h2 id="process-diagram">Process Diagram</h2>
+<h3 id="overview">Overview</h3>
+<p>The Process Diagram for our Drone Project is shown below. This diagram displays the what data will be sent, through UART protocol, around the subsystems and where it is intended to go.</p>
 <pre class="mermaid"><code>%%{init: {'themeVariables': { 'fontSize': '30px'}}}%%
 sequenceDiagram
     actor WebUser
@@ -867,13 +899,12 @@ autonumber
       MS--&gt;&gt;WebUser: Display Microphone&lt;br&gt;output wave
     A-&gt;&gt;K: Armando to Khalid&lt;br&gt;Okay to start driving
     K-&gt;&gt;K: Turn on driving LED&lt;br&gt;, trash msg.
-    WebUser-&gt;&gt;MS: play sound number&lt;br&gt;[number]
-    MS-&gt;&gt;A: play sound number&lt;br&gt;[number]
-    A-&gt;&gt;K: play sound number&lt;br&gt;[number]
-    K-&gt;&gt;V: play sound number&lt;br&gt;[number]
-    InPersonUser-&gt;&gt;L: play sound number&lt;br&gt;[number]
-    L-&gt;&gt;MC: play sound number&lt;br&gt;[number]
-    MC-&gt;&gt;V: play sound number&lt;br&gt;[number]
+      InPersonUser--&gt;&gt;L: play sound number&lt;br&gt;[number]
+      L-&gt;&gt;MS: Lia to Vedaa&lt;br&gt;play sound number&lt;br&gt;[number]
+    WebUser--&gt;&gt;MS: play sound number&lt;br&gt;[number]
+    MS-&gt;&gt;A: Matthew to Vedaa&lt;br&gt;play sound number&lt;br&gt;[number]
+    A-&gt;&gt;K: Matthew to Vedaa&lt;br&gt;play sound number&lt;br&gt;[number]
+    K-&gt;&gt;V: Matthew to Vedaa&lt;br&gt;play sound number&lt;br&gt;[number]
     V-&gt;&gt;V: play sound number&lt;br&gt;[number],&lt;br&gt;Trash msg
     MC-&gt;&gt;L: Manny to Matthew&lt;br&gt;Send Stream Status&lt;br&gt;[Stream Telemetry]
     L--&gt;&gt;InPersonUser: Send Stream Status&lt;br&gt;[Stream Telemetry]
@@ -885,7 +916,7 @@ autonumber
 
 </code></pre>
 <h2 id="message-types">Message Types</h2>
-<h3 id="overview">Overview:</h3>
+<h3 id="overview_1">Overview:</h3>
 <p>All message type structure is described by the following:</p>
 <pre><code>---
 config:

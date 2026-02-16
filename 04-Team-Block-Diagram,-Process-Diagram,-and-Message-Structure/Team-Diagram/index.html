@@ -9,16 +9,16 @@
       
       
       
-        <link rel="canonical" href="https://https:/egr314-s-2026-303.github.io/Appendix/03-Examples-to-Hide/charts/">
+        <link rel="canonical" href="https://https:/egr314-s-2026-303.github.io/04-Team-Block-Diagram%2C-Process-Diagram%2C-and-Message-Structure/Team-Diagram/">
       
       
-        <link rel="prev" href="../../02-Concept-Genrations/Append-Concepts/">
+        <link rel="prev" href="../../04-Team-Block-Diagram/Team-Diagram/">
       
       
-        <link rel="next" href="../esp-32-table/">
+        <link rel="next" href="../../Appendix/appendix/">
       
       
-      <link rel="icon" href="../../../static/logo_314.png">
+      <link rel="icon" href="../../static/logo_314.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
             
 
@@ -26,14 +26,14 @@
 
     
       
-        <title>Charts - EGR314 - Exploration Drone Project</title>
+        <title>Block Diagram, Protocol, and Message Structure - EGR314 - Exploration Drone Project</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -63,7 +63,7 @@
     
 
 
-  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#block-diagram" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -101,9 +106,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="EGR314 - Exploration Drone Project" class="md-header__button md-logo" aria-label="EGR314 - Exploration Drone Project" data-md-component="logo">
+    <a href="../.." title="EGR314 - Exploration Drone Project" class="md-header__button md-logo" aria-label="EGR314 - Exploration Drone Project" data-md-component="logo">
       
-  <img src="../../../static/logo-314.svg" alt="logo">
+  <img src="../../static/logo-314.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -120,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Charts
+              Block Diagram, Protocol, and Message Structure
             
           </span>
         </div>
@@ -195,7 +200,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
     
@@ -214,7 +219,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../01-Organization/Team-Organization/" class="md-tabs__link">
+        <a href="../../01-Organization/Team-Organization/" class="md-tabs__link">
           
   
     
@@ -234,7 +239,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../02-Concept-Design/Design/" class="md-tabs__link">
+        <a href="../../02-Concept-Design/Design/" class="md-tabs__link">
           
   
     
@@ -254,7 +259,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../03-Project-Requirements/Project-requirements/" class="md-tabs__link">
+        <a href="../../03-Project-Requirements/Project-requirements/" class="md-tabs__link">
           
   
     
@@ -274,32 +279,12 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../04-Team-Block-Diagram/Team-Diagram/" class="md-tabs__link">
+        <a href="../../04-Team-Block-Diagram/Team-Diagram/" class="md-tabs__link">
           
   
     
   
   04 Team Block Diagram
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../../04-Team-Block-Diagram%2C-Process-Diagram%2C-and-Message-Structure/Team-Diagram/" class="md-tabs__link">
-          
-  
-    
-  
-  04 Team Block Diagram, Process Diagram, and Message Structure
 
         </a>
       </li>
@@ -316,7 +301,27 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../appendix/" class="md-tabs__link">
+        <a href="./" class="md-tabs__link">
+          
+  
+    
+  
+  04 Team Block Diagram, Process Diagram, and Message Structure
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Appendix/appendix/" class="md-tabs__link">
           
   
     
@@ -357,9 +362,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="EGR314 - Exploration Drone Project" class="md-nav__button md-logo" aria-label="EGR314 - Exploration Drone Project" data-md-component="logo">
+    <a href="../.." title="EGR314 - Exploration Drone Project" class="md-nav__button md-logo" aria-label="EGR314 - Exploration Drone Project" data-md-component="logo">
       
-  <img src="../../../static/logo-314.svg" alt="logo">
+  <img src="../../static/logo-314.svg" alt="logo">
 
     </a>
     EGR314 - Exploration Drone Project
@@ -386,7 +391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -426,7 +431,7 @@
         
   
   
-    <a href="../../../01-Organization/Team-Organization/" class="md-nav__link">
+    <a href="../../01-Organization/Team-Organization/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -472,7 +477,7 @@
         
   
   
-    <a href="../../../02-Concept-Design/Design/" class="md-nav__link">
+    <a href="../../02-Concept-Design/Design/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -518,7 +523,7 @@
         
   
   
-    <a href="../../../03-Project-Requirements/Project-requirements/" class="md-nav__link">
+    <a href="../../03-Project-Requirements/Project-requirements/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -564,7 +569,7 @@
         
   
   
-    <a href="../../../04-Team-Block-Diagram/Team-Diagram/" class="md-nav__link">
+    <a href="../../04-Team-Block-Diagram/Team-Diagram/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -587,64 +592,12 @@
       
   
   
-  
-  
-    
-    
-      
-        
-      
-    
-    
-      
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-    <a href="../../../04-Team-Block-Diagram%2C-Process-Diagram%2C-and-Message-Structure/Team-Diagram/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
-    04 Team Block Diagram, Process Diagram, and Message Structure
-  </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
   
     
     
-      
-        
-      
-        
-      
-        
       
         
       
@@ -663,187 +616,24 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
             
   
   <span class="md-ellipsis">
-    Appendix
+    04 Team Block Diagram, Process Diagram, and Message Structure
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_7">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Appendix
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../appendix/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Appendix
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-      
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-    <a href="../../01-Organization-Information/Append-Organization/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
-    01 Organization Information
-  </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-      
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-    <a href="../../02-Concept-Genrations/Append-Concepts/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
-    02 Concept Genrations
-  </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-      
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_4" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    03 Examples to Hide
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_7_4">
-            <span class="md-nav__icon md-icon"></span>
-            03 Examples to Hide
+            04 Team Block Diagram, Process Diagram, and Message Structure
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -861,52 +651,130 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Block Diagram, Protocol, and Message Structure
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Charts
+    Block Diagram, Protocol, and Message Structure
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#block-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#process-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Process Diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message Structure
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
 
               
             
-              
-                
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
   
   
   
   
-    <li class="md-nav__item">
-      <a href="../esp-32-table/" class="md-nav__link">
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
   
+  
+    <a href="../../Appendix/appendix/" class="md-nav__link">
+      
+  
   <span class="md-ellipsis">
-    ESP32 Table
+    Appendix
   </span>
   
 
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
-    </li>
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -930,6 +798,41 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#block-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#process-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Process Diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Message Structure
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -943,7 +846,7 @@
                   
 
   
-    <a href="https://github.com/EGR314-S-2026-303/EGR314-S-2026-303.github.io/edit/main/docs/Appendix/03-Examples-to-Hide/charts.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/EGR314-S-2026-303/EGR314-S-2026-303.github.io/edit/main/docs/04-Team-Block-Diagram,-Process-Diagram,-and-Message-Structure/Team-Diagram.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"></path></svg>
     </a>
@@ -951,35 +854,63 @@
   
 
 
-  <h1>Charts</h1>
+  <h1>Block Diagram, Protocol, and Message Structure</h1>
 
-<pre class="mermaid"><code>graph LR
-  A[Start] --&gt; B{Error?};
-  B --&gt;|Yes| C[Hmm...];
-  C --&gt; D[Debug];
-  D --&gt; B;
-  B ----&gt;|No| E[Yay!];</code></pre>
-<pre class="mermaid"><code>sequenceDiagram
-  autonumber
-  Alice-&gt;&gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&gt;&gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts!
-  John--&gt;&gt;Alice: Great!
-  John-&gt;&gt;Bob: How about you?
-  Bob--&gt;&gt;John: Jolly good!</code></pre>
-<pre class="mermaid"><code>stateDiagram-v2
-  state fork_state &lt;&lt;fork&gt;&gt;
-    [*] --&gt; fork_state
-    fork_state --&gt; State2
-    fork_state --&gt; State3
+<h2 id="block-diagram">Block Diagram</h2>
+<h2 id="process-diagram">Process Diagram</h2>
+<pre class="mermaid"><code>
+sequenceDiagram
+    actor WebUser
+    participant MS as Matthew
+    participant A as Armando
+    participant K as Khalid
 
-    state join_state &lt;&lt;join&gt;&gt;
-    State2 --&gt; join_state
-    State3 --&gt; join_state
-    join_state --&gt; State4
-    State4 --&gt; [*]</code></pre>
+    participant V as Vedaa
+    participant MC as Manny
+    participant L as Lia
+    actor InPersonUser
+autonumber
+    InPersonUser--&gt;&gt;L: move arm to position (X, Y, Z)
+    L-&gt;&gt;MS: Lia to Armando&lt;br&gt;move arm to position (X,Y,Z)
+    WebUser--&gt;&gt;MS: move arm to position (X, Y, Z)
+    MS-&gt;&gt;A: Matthew to Armando&lt;br&gt;move arm to position (X, Y, Z)
+    A-&gt;&gt;A: move arm,&lt;br&gt; trash msg
+    InPersonUser--&gt;&gt;L: Set speed and type of movement to [speed]
+    L-&gt;&gt;MS: Lia to Khalid&lt;br&gt;Set speed and type of movement to [speed]
+    WebUser--&gt;&gt;MS: Set speed and type of movement to [speed]
+    MS-&gt;&gt;A: Matthew to Khalid&lt;br&gt;Set speed and type of movement to [speed]
+    A-&gt;&gt;K: Matthew to Khalid&lt;br&gt;Set speed and type of movement to [speed]
+    K-&gt;&gt;K: Set speed to [speed] and type of movement to [movement],&lt;br&gt;Trash msg
+    loop each second
+     A-&gt;&gt;K: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
+    K-&gt;&gt;V: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
+    V-&gt;&gt;MC: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
+    MC-&gt;&gt;L: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
+    L--&gt;&gt;InPersonUser: Display Arm position
+    L-&gt;&gt;MS: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
+    MS--&gt;&gt;WebUser: Display Arm position
+    MS-&gt;&gt;MS: Display arm position,&lt;br&gt; trash msg.
+    K-&gt;&gt;V: Khalid to Everyone&lt;br&gt;My speed is [speed]
+    V-&gt;&gt;MC: Khalid to Everyone&lt;br&gt;My speed is [speed]
+    MC-&gt;&gt;L: Khalid to Everyone&lt;br&gt;My speed is [speed]
+    L--&gt;&gt;InPersonUser: Display Speed
+    L-&gt;&gt;MS: Khalid to Everyone&lt;br&gt;My speed is [speed]
+    MS--&gt;&gt;WebUser: Display Speed
+    WebUser-&gt;&gt;WebUser: Display speed,&lt;br&gt; trash msg.
+      V-&gt;&gt;MC: Vedaa to Everyone&lt;br&gt;Microphone output is [sound]
+      MC-&gt;&gt;L: Vedaa to Everyone&lt;br&gt;Microphone output is [sound]
+      L--&gt;&gt;InPersonUser: Display Microphone output wave
+      L-&gt;&gt;MS: Vedaa to Everyone&lt;br&gt;Microphone output is [sound]
+      MS--&gt;&gt;WebUser: Display Microphone output wave
+    A-&gt;&gt;K: Armando to Khalid&lt;br&gt;Okay to start driving
+    K-&gt;&gt;K: Turn on driving LED&lt;br&gt;, trash msg.
+
+    MC-&gt;&gt;L: Manny to Matthew&lt;br&gt;Send Stream Status[Stream Telemetry]
+    L--&gt;&gt;InPersonUser: Send Stream Status [Stream Telemetry]
+    L-&gt;&gt;MS: Manny to Matthew&lt;br&gt;Send Stream Status [Stream Telemetry]
+MS--&gt;&gt;WebUser: Send Image [Video Stream]
+    end</code></pre>
+<h2 id="message-structure">Message Structure</h2>
 
 
 
@@ -1018,7 +949,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer">
         
           
-          <a href="../../02-Concept-Genrations/Append-Concepts/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Appendix - Design Concepts">
+          <a href="../../04-Team-Block-Diagram/Team-Diagram/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Block Diagram, Process Diagram, and Message Structure">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
@@ -1028,20 +959,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Appendix - Design Concepts
+                Block Diagram, Process Diagram, and Message Structure
               </div>
             </div>
           </a>
         
         
           
-          <a href="../esp-32-table/" class="md-footer__link md-footer__link--next" aria-label="Next: ESP32 Table">
+          <a href="../../Appendix/appendix/" class="md-footer__link md-footer__link--next" aria-label="Next: Appendix">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                ESP32 Table
+                Appendix
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1086,12 +1017,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      <script src="../../assets/javascripts/bundle.3220b9d7.min.js"></script>
       
-        <script src="../../../javascripts/mathjax.js"></script>
+        <script src="../../javascripts/mathjax.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       

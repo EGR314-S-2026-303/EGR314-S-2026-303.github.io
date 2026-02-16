@@ -12,7 +12,7 @@ title: Block Diagram, Protocol, and Message Structure
 
 sequenceDiagram
 
-%%{init: {'themeVariables': { 'fontSize': '48px' }}}%%
+%%{init: {'themeVariables': { 'fontSize': '100px' ,'nodeFontSize': '100px' , 'edgeLabelFontSize': '100px'}}}%%
 
 
     actor WebUser

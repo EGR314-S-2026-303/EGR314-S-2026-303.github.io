@@ -1,5 +1,5 @@
 ---
-title: Block Diagram, Protocol, and Message Structure
+title: Block Diagram, Process Diagram, and Message Structure
 ---
 
 ## Header

@@ -1,11 +1,11 @@
 ---
-title: Welcome
+title: Home
 tags:
 - tag1
 - tag2
 ---
 <center>
-<font size="8">Project Name<br>
+<font size="8">Exploration Drone Project<br>
 <font size="5">Team 303<br>
 **Submission: January, 18, 2026**<br>
 Spring - 2026<br>
@@ -26,7 +26,9 @@ Kevin Nichols<br>
 
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
-| Armando Botiller       | [JohnDoe.GitHub](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
-| Name #2                | link |
-| Name #3                | link |
-| Name #4                | link |
+| Armando Botiller       | [https://botilarm.github.io/](https://botilarm.github.io/) |
+| Lia Ryan               | [Lia Ryan's Github](https://lryan5.github.io/) |
+| Matthew Sanderson      | [Matthew Sanderson Github](https://msande84.github.io/msande84.EGR314.github.io/) |
+| Khalid Hamdan          | [Khalid Hamdan Github](https://khamdan24.github.io/khamdan2.github.io/) |
+| Manuel Castro          | [Manuel Castro's GitHub](https://mcastr11-collab.github.io/EGR314MannyDataSheet/) |
+| Vedaa Ubale            | [Vedaa Ubale's Github](https://vedaau.github.io/) | 

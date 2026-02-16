@@ -858,17 +858,12 @@
 
 <h2 id="block-diagram">Block Diagram</h2>
 <h2 id="process-diagram">Process Diagram</h2>
-<pre class="mermaid"><code>
+<pre class="mermaid"><code>%%{init: {'themeVariables': { 'fontSize': '30px'}}}%%
 sequenceDiagram
-
-%%{init: {'themeVariables': { 'fontSize': '100px' ,'nodeFontSize': '100px' , 'edgeLabelFontSize': '100px'}}}%%
-
-
     actor WebUser
     participant MS as Matthew
     participant A as Armando
     participant K as Khalid
-
     participant V as Vedaa
     participant MC as Manny
     participant L as Lia
@@ -908,12 +903,21 @@ autonumber
       MS--&gt;&gt;WebUser: Display Microphone output wave
     A-&gt;&gt;K: Armando to Khalid&lt;br&gt;Okay to start driving
     K-&gt;&gt;K: Turn on driving LED&lt;br&gt;, trash msg.
-
+    WebUser-&gt;&gt;MS: play sound number [number]
+    MS-&gt;&gt;A: play sound number [number]
+    A-&gt;&gt;K: play sound number [number]
+    K-&gt;&gt;V: play sound number [number]
+    InPersonUser-&gt;&gt;L: play sound number [number]
+    L-&gt;&gt;MC: play sound number [number]
+    MC-&gt;&gt;V: play sound number [number]
+    V-&gt;&gt;V: play sound number [number],&lt;br&gt;Trash msg
     MC-&gt;&gt;L: Manny to Matthew&lt;br&gt;Send Stream Status[Stream Telemetry]
     L--&gt;&gt;InPersonUser: Send Stream Status [Stream Telemetry]
     L-&gt;&gt;MS: Manny to Matthew&lt;br&gt;Send Stream Status [Stream Telemetry]
-MS--&gt;&gt;WebUser: Send Image [Video Stream]
-    end</code></pre>
+    MS-&gt;&gt;WebUser: Send Stream Status [Stream Telemetry]
+    MC-&gt;&gt;WebUser: Send MJPEG [Image Stream]
+    end
+</code></pre>
 <h2 id="message-structure">Message Structure</h2>
 
 

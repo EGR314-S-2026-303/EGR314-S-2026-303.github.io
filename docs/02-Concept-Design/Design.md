@@ -12,6 +12,8 @@ Our audience are first responders, scientists, researchers, the military, and th
 
 At the beginning, we came up with a bunch of different concepts without taking into mind all of the requirements for this assignment. Once we finished this board (Figure 0). We moved onto idea generation after completing this board.
 
+<img src="Ideas.png" width="100" alt="System block diagram">;
+
 ![Inital Brainstorming](Ideas.png)
 **Figure 0** Whiteboard of concepts related exploratory devices
 

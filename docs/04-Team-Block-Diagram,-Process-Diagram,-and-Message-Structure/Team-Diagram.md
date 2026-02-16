@@ -20,16 +20,16 @@ sequenceDiagram
     participant L as Lia
     actor InPersonUser
 autonumber
-    InPersonUser-->>L: move arm to position (X, Y, Z)
-    L->>MS: Lia to Armando<br>move arm to position (X,Y,Z)
-    WebUser-->>MS: move arm to position (X, Y, Z)
-    MS->>A: Matthew to Armando<br>move arm to position (X, Y, Z)
+    InPersonUser-->>L: move arm to position<br>(X, Y, Z)
+    L->>MS: Lia to Armando<br>move arm to position<br>(X, Y, Z)
+    WebUser-->>MS: move arm to position<br>(X, Y, Z)
+    MS->>A: Matthew to Armando<br>move arm to position<br>(X, Y, Z)
     A->>A: move arm,<br> trash msg
-    InPersonUser-->>L: Set speed and type of movement to [speed]
-    L->>MS: Lia to Khalid<br>Set speed  movement to [speed]
-    WebUser-->>MS: Set speed movement to [speed]
-    MS->>A: Matthew to Khalid<br>Set speed & movement to [speed]
-    A->>K: Matthew to Khalid<br>Set speed & movement to [speed]
+    InPersonUser-->>L: Set speed & Movement<br>[speed]
+    L->>MS: Lia to Khalid<br>Set speed & Movement<br>[speed]
+    WebUser-->>MS: Set speed & Movement<br>[speed]
+    MS->>A: Matthew to Khalid<br>Set speed & Movement<br>[speed]
+    A->>K: Matthew to Khalid<br>Set speed & Movement<br>[speed]
     K->>K: Set speed to [speed] and type of movement to [movement],<br>Trash msg
     loop each second
      A->>K: Armando to Everyone<br>Arm is at (X, Y, Z)
@@ -49,25 +49,26 @@ autonumber
     WebUser->>WebUser: Display speed,<br> trash msg.
       V->>MC: Vedaa to Everyone<br>Microphone output is [sound]
       MC->>L: Vedaa to Everyone<br>Microphone output is [sound]
-      L-->>InPersonUser: Display Microphone output wave
+      L-->>InPersonUser: Display Microphone<br>output wave
       L->>MS: Vedaa to Everyone<br>Microphone output is [sound]
-      MS-->>WebUser: Display Microphone output wave
+      MS-->>WebUser: Display Microphone<br>output wave
     A->>K: Armando to Khalid<br>Okay to start driving
     K->>K: Turn on driving LED<br>, trash msg.
-    WebUser->>MS: play sound number [number]
-    MS->>A: play sound number [number]
-    A->>K: play sound number [number]
-    K->>V: play sound number [number]
-    InPersonUser->>L: play sound number [number]
-    L->>MC: play sound number [number]
-    MC->>V: play sound number [number]
-    V->>V: play sound number [number],<br>Trash msg
-    MC->>L: Manny to Matthew<br>Send Stream Status[Stream Telemetry]
-    L-->>InPersonUser: Send Stream Status [Stream Telemetry]
-    L->>MS: Manny to Matthew<br>Send Stream Status [Stream Telemetry]
+    WebUser->>MS: play sound number<br>[number]
+    MS->>A: play sound number<br>[number]
+    A->>K: play sound number<br>[number]
+    K->>V: play sound number<br>[number]
+    InPersonUser->>L: play sound number<br>[number]
+    L->>MC: play sound number<br>[number]
+    MC->>V: play sound number<br>[number]
+    V->>V: play sound number<br>[number],<br>Trash msg
+    MC->>L: Manny to Matthew<br>Send Stream Status<br>[Stream Telemetry]
+    L-->>InPersonUser: Send Stream Status<br>[Stream Telemetry]
+    L->>MS: Manny to Matthew<br>Send Stream Status<br>[Stream Telemetry]
     MS->>WebUser: Send Stream Status<br>[Stream Telemetry]
     MC->>WebUser: Send MJPEG [Image Stream]
     end
+
 
 ```
 

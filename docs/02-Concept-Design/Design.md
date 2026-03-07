@@ -102,6 +102,6 @@ After researching the available offerings, we felt that the ground drone was the
 
 
 **Chosen concept design drawing**
-THe two drawings below show basic shapes showing the location of internal and external components. Each chip is labled with what system they are controlling.
+The two drawings below show basic shapes showing the location of internal and external components. Each chip is labled with what system they are controlling.
 **Figure 16** SABLE chip placement, communication, and external components concept drawing
 ![SABLE concept](sable_chip_placement_and_uart_directions.png)

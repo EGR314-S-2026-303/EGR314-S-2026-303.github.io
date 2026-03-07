@@ -97,4 +97,11 @@ The Quadcopter drone will be designed to locate people who are lost in the wilde
 
 After researching the available offerings, we felt that the ground drone was the option with a greater opportunity for innovation. We looked at aerial search and rescue drones, and while this concept offered a challenge since it would be a flying drone, we saw that the market was already saturated with many payload capable rescue and law enforcement drones. In the other hand, the underwater drone would have been a challenge as well, the team ultimately chose the ground drone since we felt we could bring more fresh ideas into a market with limited offerings.
 
+**Figure 15** Ground Search and Rescue Drone Vector Sketch
 ![Inital Brainstorming](ResQGroundDrone.svg)<br>
+
+
+**Chosen concept design drawing**
+THe two drawings below show basic shapes showing the location of internal and external components. Each chip is labled with what system they are controlling.
+**Figure 16** SABLE chip placement, communication, and external components concept drawing
+![SABLE concept](sable_chip_placement_and_uart_directions.png)

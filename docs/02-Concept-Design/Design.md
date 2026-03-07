@@ -2,15 +2,18 @@
 title: Concept Generation and Design Ideation
 ---
 
-## Goal and Audience
-
+## !!UPDATED!! Goal and Audience
 The goal of our exploration device is to bring innovative and unique solutions to already existing problems to make them stand out while improving efficiency for those using it. Our solution would also have to adhere to the course requirements. We plan on making our device easy to deploy and operate while making it inexpensive to purchase and operate.<br>
 
 Our audience are first responders, scientists, researchers, the military, and the people responsible for purchasing exploration robots in all of those fields. Focusing on these professions allows us to choose from a wide variety of robots that meets our class requirements.<br>
 
+After choosing our design and specifying the features and control of the robot, we've decided the main purpose of it to be a ground remote controlled robot intended to explore dangerous environments and collect samples for further analysis, with an added speaker for communication for rescue purposes.<br>
+
+What kind of environment would this robot be used in? We expect it would be used in an environment that has unexpectedly become toxic for people that needs to be analyzed but does not require very long distance communication to control (e.g. building collapsed and dust is toxic to breathe and a health organization needs to know the concentration of dust on a sample of rubble.)<br>
+
 ## Initial Concept Generation
 
-At the beginning, we came up with a bunch of different concepts without taking into mind all of the requirements for this assignment. Once we finished this board (Figure 0). We moved onto idea generation after completing this board.
+At the beginning, we came up with a bunch of different concepts without taking into mind all of the requirements for this assignment. Once we finished this board (Figure 0), We moved onto idea generation.
 
 <img src="Ideas.png" width="100" alt="System block diagram">;
 

@@ -44,7 +44,7 @@ autonumber
     MS-->>WebUser: Display Arm position
     MS->>MS: Display arm position,<br> trash msg.
     K->>V: Khalid to Everyone<br>My speed is [speed]
-    V->>MC: Khalid to Everyone<br>My speed is [speed]
+    V->>MC: Khalid to Everyone<br>My speed is [speed]b
     MC->>L: Khalid to Everyone<br>My speed is [speed]
     L-->>InPersonUser: Display Speed
     L->>MS: Khalid to Everyone<br>My speed is [speed]

@@ -5,9 +5,9 @@ tags:
 - tag2
 ---
 <center>
-<font size="8">Exploration Drone Project<br>
+<font size="8">SABLE<br>
 <font size="5">Team 303<br>
-**Submission: January, 18, 2026**<br>
+**Submission: March, 06, 2026**<br>
 Spring - 2026<br>
 <font size="4">Arizona State University<br>
 **EGR 314**<br>
@@ -17,16 +17,20 @@ Kevin Nichols<br>
 </center>
 
 ## Team Introduction
-> This will be updated as part of the preparation for the External Review.<br>
->    * This needs to be updated to reflect a team introduction.<br>
->    * Content should also help an unfamiliar reader navigate to areas of interest.
+Greetings. We are Team 303 and our project, SABLE, is meant to be a WIFI controlled ground exploration/rescue bot with an arm and grabber attached for sample collection. 
+
+To follow our design process and understand the technical as well as physical requirements and features, look no further than our [Project-Requirements](https://egr314-s-2026-303.github.io/03-Project-Requirements/Project-requirements/) and [Concept Generation and Design Ideation](https://egr314-s-2026-303.github.io/02-Concept-Design/Design/) page.
+
+Our design features a series of daisy-chained boards meant to control different parts of the robot. More info can be found in our [Team Block Diagram, Process Diagram, and Message Structure](https://egr314-s-2026-303.github.io/04-Team-Block-Diagram%2C-Process-Diagram%2C-and-Message-Structure/Team-Diagram/) page.
+
+In our appendix you may find our [Team Organization Information](https://egr314-s-2026-303.github.io/Appendix/01-Organization-Information/Append-Organization/) page which tells more about our team collaboration methods more.
 
 
 ## Team Members Datasheet links
 
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
-| Armando Botiller       | [https://botilarm.github.io/](https://botilarm.github.io/) |
+| Armando Botiller       | [Armando Botiller's github](https://botilarm.github.io/) |
 | Lia Ryan               | [Lia Ryan's Github](https://lryan5.github.io/) |
 | Matthew Sanderson      | [Matthew Sanderson Github](https://msande84.github.io/msande84.EGR314.github.io/) |
 | Khalid Hamdan          | [Khalid Hamdan Github](https://khamdan24.github.io/khamdan2.github.io/) |

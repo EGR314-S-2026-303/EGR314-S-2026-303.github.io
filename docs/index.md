@@ -16,6 +16,9 @@ Kevin Nichols<br>
 
 </center>
 
+## Team
+![Team](TeamPhoto.jpg)
+
 ## Team Introduction
 Greetings. We are Team 303 and our project, SABLE, is meant to be a WIFI controlled ground exploration/rescue bot with an arm and grabber attached for sample collection. 
 

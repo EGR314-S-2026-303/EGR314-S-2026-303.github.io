@@ -28,6 +28,8 @@ Our design features a series of daisy-chained boards meant to control different 
 
 In our appendix you may find our [Team Organization Information](https://egr314-s-2026-303.github.io/Appendix/01-Organization-Information/Append-Organization/) page which tells more about our team collaboration methods more.
 
+## Project Summary
+Overall the project was a success. We got everyones subsystem functional. There were many hiccups along the way with multiple team members needing to update their PCB and order a new one. The design of our project ended up being one subsystem to control the drive train, one to control the manipulator, one as a sound sensor, one as a camera, one as the human machine interface, and one as the Wi-Fi connection.
 
 ## Team Members Datasheet links
 

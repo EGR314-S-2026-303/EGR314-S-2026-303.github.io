@@ -38,4 +38,4 @@ In our appendix you may find our [Team Organization Information](https://egr314-
 | Matthew Sanderson      | [Matthew Sanderson Github](https://msande84.github.io/msande84.EGR314.github.io/) |
 | Khalid Hamdan          | [Khalid Hamdan Github](https://khamdan24.github.io/khamdan2.github.io/) |
 | Manuel Castro          | [Manuel Castro's GitHub](https://mcastr11-collab.github.io/EGR314MannyDataSheet/) |
-| Vedaa Ubale            | [Vedaa Ubale's Github](https://vedaau.github.io/) | 
+| Vedaa Ubale            | [Vedaa Ubale's Github](https://vedaau.github.io/sable) | 

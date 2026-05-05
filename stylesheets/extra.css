@@ -1,3 +1,20 @@
+/* Enable horizontal scrolling for top navigation tabs */
+.md-tabs__list {
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+}
+
+/* Prevent wrapping of tabs */
+.md-tabs__item {
+  flex: 0 0 auto;
+}
+
+/* Optional: smoother scrolling */
+.md-tabs__list {
+  scroll-behavior: smooth;
+}
+
 article{
     a {
         font-style:italic;

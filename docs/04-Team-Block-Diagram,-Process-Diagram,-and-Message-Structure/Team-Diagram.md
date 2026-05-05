@@ -5,6 +5,15 @@ title: Block Diagram, Protocol, and Message Structure
 ## Block Diagram
 ![block diagram](block_diagram.png)
 
+### Communication Structure
+The functionality of our communication sequence diagram satisfies the product requirements of being in a loop and using UART to communicate between subsystems. It meets user needs by allowing for commands to control the robot be sent from the human machine interface on the robot, as well as remotely through Wi-Fi.
+
+### Decision Making Process
+The decision making process of our message structure was to match the structure wanted by the class and have the command messages be as simple as possible. We wanted commands to be as simple as possible so that the messages take less time to send.
+
+### Top 5 Changes
+We did not make many changes to the software design compared to the original. What changed was mostly condensing commands down to 1 character, and adding 'X' as a destination that means a message is for every subsystem.
+
 ## Process Diagram
 
 ### Overview

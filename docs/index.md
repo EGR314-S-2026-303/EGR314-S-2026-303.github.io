@@ -17,7 +17,7 @@ Kevin Nichols<br>
 </center>
 
 ## Team Introduction
-Greetings. We are Team 303 and our project, SABLE, is meant to be a WIFI controlled ground exploration/rescue bot with an arm and grabber attached for sample collection. 
+Greetings. We are Team 303 and our project, SABLE, is meant to be a WIFI controlled ground exploration/rescue bot with an arm and grabber attached for sample collection.<br>
 ![Team](TeamPhoto.jpg)
 
 To follow our design process and understand the technical as well as physical requirements and features, look no further than our [Project-Requirements](https://egr314-s-2026-303.github.io/03-Project-Requirements/Project-requirements/) and [Concept Generation and Design Ideation](https://egr314-s-2026-303.github.io/02-Concept-Design/Design/) page.

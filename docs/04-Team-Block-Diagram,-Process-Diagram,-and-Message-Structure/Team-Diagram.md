@@ -60,7 +60,7 @@ MS->>A: Lia to Armando<br>Enable/Disable Stepper Motor
     L->>MS: Manny to Matthew<br/>Send Stream Status<br/>[Stream Telemetry]
     MS->>WebUser: Manny to Matthew and Lia<br>Send Stream Status<br>[Stream Telemetry]
     MC->>WebUser: Send MJPEG [Image Stream]
-    end
+end
 
 
 

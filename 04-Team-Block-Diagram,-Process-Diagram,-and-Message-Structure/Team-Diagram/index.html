@@ -795,51 +795,42 @@ sequenceDiagram
     participant L as Lia
     actor InPersonUser
 autonumber
-    InPersonUser--&gt;&gt;L: move arm to position&lt;br&gt;(X, Y, Z)
-    L-&gt;&gt;MS: Lia to Armando&lt;br&gt;move arm to position&lt;br&gt;(X, Y, Z)
-    WebUser--&gt;&gt;MS: move arm to position&lt;br&gt;(X, Y, Z)
-    MS-&gt;&gt;A: Matthew to Armando&lt;br&gt;move arm to position&lt;br&gt;(X, Y, Z)
-    A-&gt;&gt;A: move arm,&lt;br&gt; trash msg
-    InPersonUser--&gt;&gt;L: Set speed &amp; Movement&lt;br&gt;[speed]
-    L-&gt;&gt;MS: Lia to Khalid&lt;br&gt;Set speed &amp; Movement&lt;br&gt;[speed]
-    WebUser--&gt;&gt;MS: Set speed &amp; Movement&lt;br&gt;[speed]
-    MS-&gt;&gt;A: Matthew to Khalid&lt;br&gt;Set speed &amp; Movement&lt;br&gt;[speed]
-    A-&gt;&gt;K: Matthew to Khalid&lt;br&gt;Set speed &amp; Movement&lt;br&gt;[speed]
-    K-&gt;&gt;K: Set speed to [speed] and type of movement to [movement],&lt;br&gt;Trash msg
+InPersonUser-&gt;&gt;L: Lia to Armando&lt;br&gt;Enable/Disable Stepper Motor
+L-&gt;&gt;MS: Lia to Armando&lt;br&gt;Enable/Disable Stepper Motor
+MS-&gt;&gt;A: Lia to Armando&lt;br&gt;Enable/Disable Stepper Motor
+    WebUser--&gt;&gt;MS: Matthew to Armando&lt;br&gt;Enable/Disable Stepper Motor
+    MS-&gt;&gt;A: Matthew to Armando&lt;br&gt;Enable/Disable Stepper Motor
+    A-&gt;&gt;A: Enable/Disable arm&lt;br&gt;trash msg
+    InPersonUser-&gt;&gt;L: Lia to Armando&lt;br&gt;Direction, Speed, Revolutions
+    L-&gt;&gt;MS: Lia to Armando&lt;br&gt;Direction, Speed, Revolutions
+    MS-&gt;&gt;A: Lia to Armando&lt;br&gt;Direction, Speed, Revolutions
+    WebUser-&gt;&gt;MS: Matthew to Armando&lt;br&gt;Direction, Speed, Revolutions
+    MS-&gt;&gt;A: Matthew to Armando&lt;br&gt;Direction, Speed, Revolutions
+    A-&gt;&gt;A: Set Direction, speed, and turn no. of revolutions&lt;br&gt;trash msg
+    A-&gt;&gt;K: Armando to Lia&lt;br&gt;"Direction, Speed, Revolutions selected"
+    K-&gt;&gt;V: Armando to Lia&lt;br&gt;"Direction, Speed, Revolutions selected"
+    V-&gt;&gt;MC: Armando to Lia&lt;br&gt;"Direction, Speed, Revolutions selected"
+    MC-&gt;&gt;L: Armando to Lia&lt;br&gt;"Direction, Speed, Revolutions selected"
+    L-&gt;&gt;InPersonUser: Display to HMI:&lt;br&gt;Direction, Speed, and Revolutions selected
+    InPersonUser-&gt;&gt;L: Drive motor forward, reverse, or stop
+    L-&gt;&gt;MS: Lia to Khalid&lt;br&gt;Forward, Reverse, or Stop
+    MS-&gt;&gt;A: Lia to Khalid&lt;br&gt;Forward, Reverse, or Stop
+    A-&gt;&gt;K: Lia to Khalid&lt;br&gt;Forward, Reverse, or Stop
+    WebUser--&gt;&gt;MS: Drive motor&lt;br&gt;Forward, Reverse, or Stop
+    MS-&gt;&gt;A: Matthew to Khalid&lt;br&gt;Forward, Reverse, or Stop
+    A-&gt;&gt;K: Matthew to Khalid&lt;br&gt;Forward, Reverse, or Stop
+    K-&gt;&gt;K: Spin motor clockwise (FWD), counter clockwise (REV) or stop motor&lt;br&gt;Trash msg
     loop each second
-     A-&gt;&gt;K: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
-    K-&gt;&gt;V: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
-    V-&gt;&gt;MC: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
-    MC-&gt;&gt;L: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
-    L--&gt;&gt;InPersonUser: Display Arm position
-    L-&gt;&gt;MS: Armando to Everyone&lt;br&gt;Arm is at (X, Y, Z)
-    MS--&gt;&gt;WebUser: Display Arm position
-    MS-&gt;&gt;MS: Display arm position,&lt;br&gt; trash msg.
-    K-&gt;&gt;V: Khalid to Everyone&lt;br&gt;My speed is [speed]
-    V-&gt;&gt;MC: Khalid to Everyone&lt;br&gt;My speed is [speed]b
-    MC-&gt;&gt;L: Khalid to Everyone&lt;br&gt;My speed is [speed]
-    L--&gt;&gt;InPersonUser: Display Speed
-    L-&gt;&gt;MS: Khalid to Everyone&lt;br&gt;My speed is [speed]
-    MS--&gt;&gt;WebUser: Display Speed
-    WebUser-&gt;&gt;WebUser: Display speed,&lt;br&gt; trash msg.
-      V-&gt;&gt;MC: Vedaa to Everyone&lt;br&gt;Microphone output is&lt;br&gt;[sound]
-      MC-&gt;&gt;L: Vedaa to Everyone&lt;br&gt;Microphone output is&lt;br&gt;[sound]
-      L--&gt;&gt;InPersonUser: Display Microphone&lt;br&gt;output wave
-      L-&gt;&gt;MS: Vedaa to Everyone&lt;br&gt;Microphone output is [sound]
-      MS--&gt;&gt;WebUser: Display Microphone&lt;br&gt;output wave
-    A-&gt;&gt;K: Armando to Khalid&lt;br&gt;Okay to start driving
-    K-&gt;&gt;K: Turn on driving LED&lt;br&gt;, trash msg.
-      InPersonUser--&gt;&gt;L: play sound number&lt;br&gt;[number]
-      L-&gt;&gt;MS: Lia to Vedaa&lt;br&gt;play sound number&lt;br&gt;[number]
-    WebUser--&gt;&gt;MS: play sound number&lt;br&gt;[number]
-    MS-&gt;&gt;A: Matthew to Vedaa&lt;br&gt;play sound number&lt;br&gt;[number]
-    A-&gt;&gt;K: Matthew to Vedaa&lt;br&gt;play sound number&lt;br&gt;[number]
-    K-&gt;&gt;V: Matthew to Vedaa&lt;br&gt;play sound number&lt;br&gt;[number]
-    V-&gt;&gt;V: play sound number&lt;br&gt;[number],&lt;br&gt;Trash msg
-    MC-&gt;&gt;L: Manny to Matthew&lt;br&gt;Send Stream Status&lt;br&gt;[Stream Telemetry]
-    L--&gt;&gt;InPersonUser: Send Stream Status&lt;br&gt;[Stream Telemetry]
-    L-&gt;&gt;MS: Manny to Matthew&lt;br&gt;Send Stream Status&lt;br&gt;[Stream Telemetry]
-    MS-&gt;&gt;WebUser: Send Stream Status&lt;br&gt;[Stream Telemetry]
+        V-&gt;&gt;MC: Vedaa to Lia and Matthew&lt;br&gt;Microphone detecting sound
+      MC-&gt;&gt;L: Vedaa to Lia and Matthew&lt;br&gt;Microphone detecting sound
+      L-&gt;&gt;InPersonUser: Display to HMI:&lt;br&gt;Microphone detecting sound
+        L-&gt;&gt;MS: Vedaa to Lia and Matthew&lt;br&gt;Microphone detecting sound
+    end
+    MS-&gt;&gt;WebUser: Publish message:&lt;br&gt;Microphone detecting sound
+    MC-&gt;&gt;L: Manny to Matthew and Lia&lt;br&gt;Send Stream Status&lt;br&gt;[Stream Telemetry]
+    L--&gt;&gt;InPersonUser: Send Stream Status&lt;br/&gt;[Stream Telemetry]
+    L-&gt;&gt;MS: Manny to Matthew&lt;br/&gt;Send Stream Status&lt;br/&gt;[Stream Telemetry]
+    MS-&gt;&gt;WebUser: Manny to Matthew and Lia&lt;br&gt;Send Stream Status&lt;br&gt;[Stream Telemetry]
     MC-&gt;&gt;WebUser: Send MJPEG [Image Stream]
     end
 
@@ -869,26 +860,26 @@ title Message
 <table>
 <thead>
 <tr>
-<th>Message type byte 1 (uint8_t)</th>
+<th>Message type</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>Arm position X, Y, and Z</td>
+<td>Enable/Disable Robot Arm</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Armando: arm position X, Y, and Z</td>
+<td>Robot arm stepper motor direction, speed, and revolutions</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Speed and movement type (forward, backward, turn left, turn right, or stop represented by 1 byte integer)</td>
+<td>Robot arm direction, speed, and revolutions mode selected</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Khalid: my speed and movement type</td>
+<td>Drive motor Forward, Reverse, or Stop</td>
 </tr>
 <tr>
 <td>5</td>
@@ -898,81 +889,61 @@ title Message
 <td>6</td>
 <td>Microphone audio stream information</td>
 </tr>
-<tr>
-<td>7</td>
-<td>Speaker audio # that corresponds to sound effect file on audio player (STRETCH GOAL)</td>
-</tr>
 </tbody>
 </table>
-<p><em>Message Type 1: Arm XYZ position to Armando</em> </p>
+<p><em>Message Type 1: Enable/Disable Robot Arm</em> </p>
 <table>
 <thead>
 <tr>
-<th>Byte 1 (uint8_t)</th>
-<th>Byte 3(uint8_t)</th>
-<th>Byte 4(uint8_t)</th>
-<th>Byte 5(uint8_t)</th>
+<th>Byte 1 (bytearray)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td>X (uint8_t)</td>
-<td>Y (uint8_t)</td>
-<td>Z (uint8_t)</td>
+<td>On/Off</td>
 </tr>
 </tbody>
 </table>
-<p><em>Message Type 2: Arm XYZ position from Armando to HMI display and Webuser</em></p>
+<p><em>Message Type 2: Robot arm stepper motor direction, speed, and revolutions</em></p>
 <table>
 <thead>
 <tr>
-<th>Byte 1 (uint8_t)</th>
-<th>Byte 3(uint8_t)</th>
-<th>Byte 4(uint8_t)</th>
-<th>Byte 5(uint8_t)</th>
+<th>Byte 1 (bytearray)</th>
+<th>Byte 2(bytearray)</th>
+<th>Byte 3(bytearray)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2</td>
-<td>X (uint8_t)</td>
-<td>Y (uint8_t)</td>
-<td>Z (uint8_t)</td>
+<td>Direction</td>
+<td>Speed in steps/second</td>
+<td>Revolutions</td>
 </tr>
 </tbody>
 </table>
-<p><em>Message Type 3: Speed and movement type to Khalid</em></p>
+<p><em>Message Type 3: Robot arm direction, speed, and revolutions mode selected</em></p>
 <table>
 <thead>
 <tr>
-<th>Byte 1 (uint8_t)</th>
-<th>Byte 3(uint8_t)</th>
-<th>Byte 4(uint8_t)</th>
+<th>Byte 1-32 (bytearray)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>3</td>
-<td>speed (uint8_t)</td>
-<td>type (uint8_t)</td>
+<td>"Robot arm direction, speed, and revolutions mode selected" represented by 16 characters</td>
 </tr>
 </tbody>
 </table>
-<p><em>Message type 4: Speed and movement type from Khalid to HMI display and webuser</em></p>
+<p><em>Message type 4: Drive motor Forward, Reverse, or Stop</em></p>
 <table>
 <thead>
 <tr>
-<th>Byte 1 (uint8_t)</th>
-<th>Byte 3(uint8_t)</th>
-<th>Byte 4(uint8_t)</th>
+<th>Byte 1 (bytearray)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>4</td>
-<td>speed (uint8_t)</td>
-<td>type (uint8_t)</td>
+<td>Forward (1), reverse (2), or stop (3)</td>
 </tr>
 </tbody>
 </table>
@@ -980,44 +951,25 @@ title Message
 <table>
 <thead>
 <tr>
-<th>Byte 1 (uint8_t)</th>
-<th>Byte 3-58(char)</th>
+<th>Byte 1-32 (bytearray)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>5</td>
-<td>video_info_string</td>
+<td>FPS, Resolution, and Stream Status</td>
 </tr>
 </tbody>
 </table>
-<p><em>Message type 6: Microphone audio feed stream information</em></p>
+<p><em>Message type 6: Microphone audio stream information</em></p>
 <table>
 <thead>
 <tr>
-<th>Byte 1 (uint8_t)</th>
-<th>Byte 3-4 (uint16_t)</th>
+<th>Byte 1 (bytearray)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>6</td>
-<td>audio (uint16_t)</td>
-</tr>
-</tbody>
-</table>
-<p><em>Message type 7: Speaker audio # (STRETCH GOAL)</em></p>
-<table>
-<thead>
-<tr>
-<th>Byte 1 (uint8_t)</th>
-<th>Byte 3 (uint8_t)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>7</td>
-<td>audio # (uint8_t)</td>
+<td>Mic on/off</td>
 </tr>
 </tbody>
 </table>

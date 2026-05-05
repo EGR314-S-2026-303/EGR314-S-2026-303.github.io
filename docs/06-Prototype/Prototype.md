@@ -26,10 +26,6 @@ title: Prototype
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oBIVNnHeueU?si=HBBLn9-meVeUVoxa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br><br>
 
-**Human Design Interface Subsystem**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oBIVNnHeueU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Resouces
 
 The poster as a PDF download is available [*here*](EGR314-Team303-Poster.pdf)

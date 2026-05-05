@@ -852,7 +852,11 @@
 <h3 id="decision-making-process">Decision Making Process</h3>
 <p>The decision making process of our message structure was to match the structure wanted by the class and have the command messages be as simple as possible. We wanted commands to be as simple as possible so that the messages take less time to send.</p>
 <h3 id="top-5-changes">Top 5 Changes</h3>
-<p>We did not make many changes to the software design compared to the original. What changed was mostly condensing commands down to 1 character, and adding 'X' as a destination that means a message is for every subsystem.</p>
+<p>We made relatively few changes to the overall software design compared to the original implementation. The primary modifications involved simplifying the command structure by condensing commands to single-character identifiers and introducing “X” as a destination to indicate that a message is intended for all subsystems.</p>
+<p>Additionally, the message body format was changed from strings to byte arrays. This adjustment streamlined the process of transmitting complete messages as a single array rather than as individual bytes, which also improved debugging efficiency.</p>
+<p>On the hardware side, the stepper motor subsystem was simplified to support a single stepper motor rather than the more complex robot arm configuration originally planned, which would have required four stepper motors. This change was necessary due to limitations in the final PCB design for the subsystem.</p>
+<p>We also removed the speaker from Vedaa’s microphone subsystem and eliminated the distance sensors from Manny’s Camera Sensor Subsystem. These decisions were made to ensure the project could be completed within the available timeframe.</p>
+<p>Finally, Khalid’s message structure was revised from supporting variable speed control to a simplified command set consisting of forward, stop, and reverse operations. This change aligned with the final capabilities of the subsystem, which did not include speed control functionality.</p>
 <h2 id="process-diagram">Process Diagram</h2>
 <h3 id="overview">Overview</h3>
 <p>The Process Diagram for our Drone Project is shown below. This diagram displays the what data will be sent, through UART protocol, around the subsystems and where it is intended to go.</p>

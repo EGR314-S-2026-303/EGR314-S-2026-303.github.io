@@ -12,7 +12,16 @@ The functionality of our communication sequence diagram satisfies the product re
 The decision making process of our message structure was to match the structure wanted by the class and have the command messages be as simple as possible. We wanted commands to be as simple as possible so that the messages take less time to send.
 
 ### Top 5 Changes
-We did not make many changes to the software design compared to the original. What changed was mostly condensing commands down to 1 character, and adding 'X' as a destination that means a message is for every subsystem.
+We made relatively few changes to the overall software design compared to the original implementation. The primary modifications involved simplifying the command structure by condensing commands to single-character identifiers and introducing “X” as a destination to indicate that a message is intended for all subsystems.
+
+Additionally, the message body format was changed from strings to byte arrays. This adjustment streamlined the process of transmitting complete messages as a single array rather than as individual bytes, which also improved debugging efficiency.
+
+On the hardware side, the stepper motor subsystem was simplified to support a single stepper motor rather than the more complex robot arm configuration originally planned, which would have required four stepper motors. This change was necessary due to limitations in the final PCB design for the subsystem.
+
+We also removed the speaker from Vedaa’s microphone subsystem and eliminated the distance sensors from Manny’s Camera Sensor Subsystem. These decisions were made to ensure the project could be completed within the available timeframe.
+
+Finally, Khalid’s message structure was revised from supporting variable speed control to a simplified command set consisting of forward, stop, and reverse operations. This change aligned with the final capabilities of the subsystem, which did not include speed control functionality.
+
 
 ## Process Diagram
 

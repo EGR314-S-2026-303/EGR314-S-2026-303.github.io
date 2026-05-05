@@ -55,16 +55,6 @@ extra_css:
 extra_javascript:
  - javascripts/mathjax.js
  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-nav:
-  - Home: index.md
-  - 01-Organization: Team-Organization.md
-  - 02-Concept-Design: Design.md
-  - 03-Project-Requirements: Project-requirements.md
-  - 04-Team-Block-Diagram: Team-Diagram.md
-  - 05-Design-Review: Design-Review.md
-  - 06-Prototype: Prototype.md
-  - 07-Version 2.0: Version2.md
   
 not_in_nav: |
   static
